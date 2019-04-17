@@ -45,9 +45,9 @@
 
 ## Usage
 ```javascript
-import RNReactNativeSecureInputMask from 'react-native-react-native-secure-input-mask';
+import SecureTextInput from 'react-native-react-native-secure-input-mask';
 
 // TODO: What to do with the module?
-RNReactNativeSecureInputMask;
+<SecureTextInput {...props} maskChar={"^"} />;
 ```
   

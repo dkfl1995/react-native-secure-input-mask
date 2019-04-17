@@ -1,5 +1,5 @@
 
-package com.dkfl1995.RNReactNativeSecureInputMask;
+package com.reactlibrary;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -13,6 +13,10 @@ public class RNReactNativeSecureInputMaskModule extends ReactContextBaseJavaModu
   public RNReactNativeSecureInputMaskModule(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
+  }
+
+  public void init() {
+
   }
 
   @Override

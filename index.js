@@ -1,6 +1,8 @@
 
-import { NativeModules } from 'react-native';
+import { NativeModules, requireNativeComponent } from 'react-native';
 
-const { RNReactNativeSecureInputMask } = NativeModules;
+const SecuredTextInput = requireNativeComponent('RCTRNSecureMaskTextInput');
 
-export default RNReactNativeSecureInputMask;
+const SecureMaskTextInput = (props) => <SecuredTextInput {...props}/>;
+
+export default SecureMaskTextInput;
