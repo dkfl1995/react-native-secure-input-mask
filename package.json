@@ -1,0 +1,26 @@
+{
+  "name": "react-native-react-native-secure-input-mask",
+  "version": "0.1.0",
+  "description": "Crossplatform way to customise password input mask chars without writing native code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "native",
+    "special",
+    "mask",
+    "char",
+    "password",
+    "secure",
+    "input",
+    "react-native-secureinputmask-change"
+  ],
+  "author": "dkfl1995",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
